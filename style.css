@@ -34,8 +34,13 @@ body {
   font-weight: 200;
   font-size: 2rem;
 }
-.heading__bold,
+.heading__bold {
+  font-weight: 600;
+  color: var(--very-dark-blue);
+}
 .card__heading {
+  font-size: 1.2rem;
+  font-weight: 600;
   color: var(--very-dark-blue);
 }
 .heading__details {
