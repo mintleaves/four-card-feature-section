@@ -22,6 +22,10 @@ body {
   color: var(--grayish-blue);
   height: 100vh;
   padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .heading {
   display: flex;
@@ -46,11 +50,6 @@ body {
 .heading__details {
   margin-top: 1rem;
   max-width: 55ch;
-}
-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .cards {
   margin-top: 3rem;
